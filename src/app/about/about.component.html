@@ -1,0 +1,21 @@
+<div class='container color-dark'>
+  <div class='col'>
+    <p>
+      This is what I'm all about. 
+     
+    </p>
+    <p>
+      <a href="" (click)="sendMeHome()"><strong>Take me back</strong></a>
+    </p>
+  </div>
+</div>
+
+<div class='container color-light'>
+  <ul>
+    <div class='col'>
+      <li *ngFor="let goal of goals">
+      {{ goal }}
+    </li>
+  </div>
+  </ul>
+</div>
